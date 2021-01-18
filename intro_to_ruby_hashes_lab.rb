@@ -9,8 +9,8 @@ actor = {
 }
 end
 
-def monopoly 
-	  :railroads=>
+monopoly =  {
+  :railroads=>
   {
     :pieces=>4,
     :rent_in_dollars=>
@@ -39,7 +39,8 @@ def monopoly
         "mortgage_value"=>"$800"
       }
     }
-  
+  }
+}
 
 end
 
