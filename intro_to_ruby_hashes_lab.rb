@@ -9,7 +9,7 @@ actor = {
 }
 end
 
-def monopoly {
+def monopoly 
 	  :railroads=>
   {
     :pieces=>4,
@@ -39,9 +39,8 @@ def monopoly {
         "mortgage_value"=>"$800"
       }
     }
-  }
-}
-}
+  
+
 end
 
 def monopoly_with_second_tier
